@@ -4,7 +4,7 @@ import { Heading, Container, Stack, Center } from '@chakra-ui/react';
 
 interface Props {
   children: ReactNode;
-}
+};
 
 export default function MainLayout({ children }: Props) {
   return (

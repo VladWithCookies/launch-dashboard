@@ -1,6 +1,7 @@
 import { map } from 'ramda';
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 
+import { GEO_API_URL } from 'constants/api';
 import Marker from 'components/molecules/Marker';
 
 interface Props {
@@ -9,8 +10,8 @@ interface Props {
 
 export default function Map({ markers }: Props) {
   return (
-    <ComposableMap>
-      <Geographies geography="/geography.json">
+    <ComposableMap data-testid="map">
+      <Geographies geography={GEO_API_URL}>
         {({ geographies }) => map((geography) => (
           <Geography
             key={geography.rsmKey}

@@ -11,15 +11,35 @@ exports[`Home matches snapshot 1`] = `
       <div
         class="css-0"
       >
-        <a
-          href="/"
+        <h1
+          class="chakra-heading css-0"
         >
-          <h1
-            class="chakra-heading css-0"
+          Moonshot Calendar Inc.
+        </h1>
+      </div>
+      <div
+        class="css-0"
+      >
+        <svg
+          class="rsm-svg "
+          data-testid="map"
+          viewBox="0 0 800 600"
+        >
+          <g
+            class="rsm-geographies "
+          />
+          <g
+            class="rsm-marker "
+            transform="translate(NaN, NaN)"
           >
-            Test Task Boilerplate
-          </h1>
-        </a>
+            <circle
+              fill="#F00"
+              r="10"
+              stroke="#fff"
+              stroke-width="2"
+            />
+          </g>
+        </svg>
       </div>
     </div>
   </div>
