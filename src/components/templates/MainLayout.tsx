@@ -1,6 +1,5 @@
 
 import { ReactNode } from 'react';
-import { Link } from 'react-router-dom';
 import { Heading, Container, Stack, Center } from '@chakra-ui/react';
 
 interface Props {
@@ -12,9 +11,7 @@ export default function MainLayout({ children }: Props) {
     <Container>
       <Stack>
         <Center p={10}>
-          <Link to="/">
-            <Heading as="h1">Test Task Boilerplate</Heading>
-          </Link>
+          <Heading as="h1">Moonshot Calendar Inc.</Heading>
         </Center>
         {children}
       </Stack>

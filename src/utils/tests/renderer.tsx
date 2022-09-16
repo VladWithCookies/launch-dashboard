@@ -1,6 +1,5 @@
 import { path } from 'ramda';
 import { ReactNode, ReactElement } from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import { render, renderHook, RenderOptions, RenderHookOptions } from '@testing-library/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
@@ -15,9 +14,7 @@ const queryClient = new QueryClient({
 
 const wrapper = ({ children }: { children: ReactNode }) => (
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
-      {children}
-    </BrowserRouter>
+    {children}
   </QueryClientProvider>
 );
 
