@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<div>
+  <div
+    class="chakra-container css-0"
+  >
+    <div
+      class="chakra-stack css-0"
+    >
+      <div
+        class="css-0"
+      >
+        <a
+          href="/"
+        >
+          <h1
+            class="chakra-heading css-0"
+          >
+            Test Task Boilerplate
+          </h1>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
